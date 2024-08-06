@@ -12,7 +12,6 @@ jobs:
     steps:
       - name: Fire event
         run: |
-          sudo apt-get update -y
           curl -L \
             -X POST \
             -H "Accept: application/vnd.github+json" \
